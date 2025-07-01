@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="cont flex bg-black">
+      <div class="left">
+        <div class="close"><img  src="pic/close.svg" alt=""></div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo">
+            <img class="invert" src="pic/logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="pic/home.svg" alt="home" />Home</li>
+
+            <li><img class="invert" src="pic/search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="pic/library.svg" alt="" />
+            <h2>Your Library</h2>
+          </div>
+           <div class="songlist">
+            <ul>
+            <li><img src="pic/music.svg" alt="">
+            <div class="info">
+              <div>Song Name</div>
+              <div >Artist</div>
+            </div>
+            <div class="playnow">
+               <span> PLAY NOW</span>
+              <img src="pic/play.svg" alt="">
+             
+            </div>
+            </li>
+            </ul>
+           </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="hamcont">
+           <img  width="40px" height="40px" class="hamberger" src="pic/hamberger.svg" alt="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="24"
+              height="24"
+              aria-label="Left Arrow"
+            >
+              <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="24"
+              height="24"
+              aria-label="Right Arrow"
+            >
+              <path d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+            </svg>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign Up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="spotify-playlists">
+          <h1>Spotify Playlists</h1>
+          <div class="card-container"></div>
+          
+             
+         
+          <div class="playbar">
+            <div class="seekbar">
+            <div class="circle"></div>
+            </div>
+            <div class="bar">
+            <div class="songinfo" ></div>
+              <div class="songbutton">
+              <img width="45px" id="previous" src="pic/previous.svg" alt="" />
+              <img width="45px" id="play" src="pic/play.svg" alt="" />
+              <img width="45px" id="next" src="pic/next.svg" alt="" />
+            </div>
+           
+            <div class="timevol">
+                 <div class="songtime">
+                     </div>
+                        <div class="volume">
+                            <img width="25" src="pic/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
