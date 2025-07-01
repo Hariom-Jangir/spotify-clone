@@ -115,7 +115,7 @@ body {
   opacity: 0;
   transition: all 1s ease-out;
 }
-.card-container:hover .play {
+.card:hover .play {
   opacity: 1;
   cursor: pointer;
 }
@@ -167,7 +167,7 @@ body {
   align-items: center;
   gap: 19px;
   position: absolute;
-  top: 10%;
+  top: auto;
   cursor: pointer;
   left: 45%;
 }
@@ -230,14 +230,15 @@ body {
 
 }
 .songtime{
-    width: 150px;
+    width: 150px;font-size: 17px;
 }
 .songinfo {
-
+ font-size: 17px;
   width: 300px;
   white-space: normal; 
   word-break: break-word; 
   overflow: hidden;
+ 
 }
 
 .hamberger {
